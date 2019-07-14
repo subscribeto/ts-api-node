@@ -1,32 +1,53 @@
 {
-	"name": "repo-name",
-	"version": "0.1.0",
-	"description": "Project description here.",
+	"name": "@subscribeto/ts-api-node",
+	"version": "0.1.3",
+	"description": "A collection of utility classes for accessing the sub.scribe.to API inside of NodeJS.",
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "js/main",
 	"types": ".d.ts/main",
+	"files": [
+		".d.ts/**",
+		"js/**",
+		"ts/main.ts",
+		"ts/s2-api-node-implementation.ts",
+		"license.md",
+		"package.json",
+		"readme.md"
+	],
 	"scripts": {
 		"build": "gulp && jest",
 		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/T99/repo-name.git"
+		"url": "git+https://github.com/subscribeto/ts-api-node.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"subscribeto",
+		"api",
+		"node"
+	],
 	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/T99/repo-name/issues"
+		"url": "https://github.com/subscribeto/ts-api-node/issues"
 	},
-	"homepage": "https://github.com/T99/repo-name#readme",
+	"homepage": "https://github.com/subscribeto/ts-api-node#readme",
+	"dependencies": {
+		"@subscribeto/ts-api": "0.1.3",
+		"request": "^2.88.0"
+	},
 	"devDependencies": {
-		"typescript": "latest",
 		"@types/jest": "latest",
+		"@types/request": "^2.48.2",
 		"del": "latest",
 		"gulp": "latest",
 		"gulp-sourcemaps": "latest",
 		"gulp-typescript": "latest",
 		"gulp-uglify-es": "latest",
-		"jest": "latest"
+		"jest": "latest",
+		"typescript": "latest"
 	}
 }

@@ -1,7 +1,7 @@
 /*
  *	Created by Trevor Sears <trevorsears.main@gmail.com>.
  *	10:53 PM -- June 11th, 2019.
- *	Project: repo-name
+ *	Project: @subscribeto/ts-api-node
  */
 
 /**
@@ -12,4 +12,8 @@
  * @since v0.1.0
  */
 
-// export { ClassName } from "./class-location";
+export { S2APINodeImplementation } from "./s2-api-node-implementation";
+
+import { S2APINodeImplementation } from "./s2-api-node-implementation";
+
+S2APINodeImplementation.use();

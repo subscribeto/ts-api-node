@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1563144452485" clover="3.2.0">
+  <project timestamp="1563144452486" name="All files">
+    <metrics statements="2" coveredstatements="2" conditionals="20" coveredconditionals="17" methods="12" coveredmethods="9" elements="34" coveredelements="28" complexity="0" loc="2" ncloc="2" packages="1" files="2" classes="2"/>
+    <file name="main.js" path="/home/trevor/dev/projects/orgs/subscribeto/ts-api-node/js/main.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="s2-api-node-implementation.js" path="/home/trevor/dev/projects/orgs/subscribeto/ts-api-node/js/s2-api-node-implementation.js">
+      <metrics statements="1" coveredstatements="1" conditionals="20" coveredconditionals="17" methods="12" coveredmethods="9"/>
+      <line num="1" count="1" type="cond" truecount="17" falsecount="3"/>
+    </file>
+  </project>
+</coverage>

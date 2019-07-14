@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var s2_api_node_implementation_1=require("./s2-api-node-implementation");exports.S2APINodeImplementation=s2_api_node_implementation_1.S2APINodeImplementation;const s2_api_node_implementation_2=require("./s2-api-node-implementation");s2_api_node_implementation_2.S2APINodeImplementation.use();
